@@ -1,0 +1,178 @@
+.offers{
+    display: flex;
+    height: 700px;
+}
+.offers__content{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers__content h1{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family:'Post No Bills Jaffna', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.offers__content hr{
+    margin: 25px 0px;
+    width: 8%;
+    height: 0.2px;
+    border-radius: 11px;
+}
+
+.offers__content p{
+    width: 55%;
+    color: var(--white, #FFF);
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.offers__btn{
+    display: inline-flex;
+    padding: 12px 28px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--white, #FFF);
+    margin-top: 150px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.offers__btn:hover{
+    background: #FFF;
+    color: black;
+    transition: 1s;
+}
+
+.offers__img{
+    height: 700px;
+    width: 45%;
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.8) 0%, rgba(15, 15, 15, 0.2) 100%), url('../Assets/Rectangle8.png'), lightgray 50% / cover no-repeat;
+}
+@media(max-width:1200px){
+    .offers{
+        height: 700px;
+    }
+    .offers__content{
+        height: 100%;
+        width: 65%;
+    }
+    
+    .offers__content h1{
+        font-size: 42px;
+        font-weight: 600;
+        margin-top: 60px;
+        line-height: 50%;
+    }
+    
+    .offers__content hr{
+        margin: 15px 0px;
+        width: 8%;
+        height: 0.2px;
+    }
+    
+    .offers__content p{
+        width: 55%;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    
+    .offers__btn{
+        padding: 12px 28px;
+        gap: 10px;
+        margin-top: 100px;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 1.8px;
+    }
+    .offers__img{
+        height: 700px;
+        width: 45%;
+    }
+}
+@media(max-width:770px){
+    .offers{
+        height: 450px;
+    }
+    .offers__content{
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(0deg, rgba(15, 15, 15, 0.8) 0%, rgba(15, 15, 15, 0.2) 100%), url('../Assets/Rectangle8.png'), lightgray 50% / cover no-repeat;
+    }
+    
+    .offers__content h1{
+        font-size: 42px;
+        font-weight: 600;
+        margin-top: 60px;
+        line-height: 50%;
+    }
+    
+    .offers__content hr{
+        margin: 15px 0px;
+        width: 8%;
+        height: 0.2px;
+    }
+    
+    .offers__content p{
+        display: none;
+    }
+    .offers__btn{
+        padding: 12px 28px;
+        gap: 10px;
+        margin-top: 100px;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 1.8px;
+    }
+    .offers__img{
+        display: none;
+    }
+}
+@media(max-width:500px){
+    .offers{
+        height: 300px;
+    }
+    .offers__content h1{
+        font-size: 42px;
+        font-weight: 600;
+        margin-top: 60px;
+        line-height: 50%;
+    }
+    
+    .offers__content hr{
+        margin: 15px 0px;
+        width: 8%;
+        height: 0.2px;
+    }
+    .offers__btn{
+        padding: 12px 28px;
+        gap: 10px;
+        margin-top: 50px;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 1.8px;
+    }
+}

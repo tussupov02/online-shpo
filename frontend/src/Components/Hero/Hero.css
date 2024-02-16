@@ -1,0 +1,116 @@
+
+.hero{
+    height: 650px;
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.238) 0%, rgba(15, 15, 15, 0.151) 100%), url('../Assets/Rectangle.png'), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .title{
+    margin-top: 100px;
+    color: #FFF;
+    text-align: center;
+    font-family:'Post No Bills Jaffna', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.hero .sity{
+    color: #FFF;
+    text-align: center;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.hero hr{
+    width: 100%;
+    height: 3px;
+    background-color: #FFF;
+    border-radius: 7px;
+}
+
+.hero__top{
+    margin-top: 150px;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+@media(max-width: 770px) {
+    .hero{
+        height: 450px;
+    }
+    .hero .title{
+        margin-top: 80px;
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    
+    .hero .sity{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .hero__top{
+        margin-top: 100px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+@media(max-width: 500px) {
+    .hero{
+        height: 300px;
+    }
+    .hero .title{
+        margin-top: 60px;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    
+    .hero .sity{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .hero__top{
+        margin-top: 70px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+@media(max-width: 400px) {
+    .hero .title{
+        margin-top: 40px;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .hero hr{
+        width: 100%;
+        height: 1px;
+        background-color: #FFF;
+        border-radius: 7px;
+    }
+
+    .hero .sity{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .hero__top{
+        margin-top: 50px;
+        font-size: 11px;
+        font-weight: 400;
+    }
+}

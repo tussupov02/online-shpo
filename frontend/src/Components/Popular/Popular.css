@@ -1,0 +1,140 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 14px 150px 14px 150px;
+}
+.popular h1{
+    margin-top: 80px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family:'Post No Bills Jaffna', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.popular hr{
+    margin: 40px 0px;
+    width: 200px;
+    height: 2px;
+    border-radius: 10px;
+    background: #252525;
+}
+.popular__item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+@media (max-width:1280px) {
+    .popular{
+        height: 550px;
+        gap: 15px;
+    }
+    .popular h1{
+        font-size: 32px;
+        margin-top: 50px;
+    }
+    .popular hr{
+        margin: 25px 0px;
+        width: 160px;
+        height: 2px;
+    }
+    .popular__item{
+        gap: 20px;
+        margin-top: 10px;
+    }
+}
+@media (max-width:1024px) {
+    .popular{
+        height: 450px;
+    }
+    .popular h1{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .popular hr{
+        margin: 10px 0px;
+        width: 120px;
+        height: 2px;
+    }
+    .popular__item{
+        gap: 15px;
+        margin-top: 20px;
+    }
+}
+@media (max-width:850px) {
+    .popular{
+        gap: 6px;
+        height: 360px;
+    }
+    .popular h1{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .popular hr{
+        width: 100px;
+        height: 2px;
+    }
+    .popular__item{
+        gap: 15px;
+        margin-top: 20px;
+    }
+}
+@media (max-width:620px) {
+    .popular{
+        gap: 4px;
+        height: 250px;
+    }
+    .popular h1{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .popular hr{
+        width: 100px;
+        height: 2px;
+    }
+    .popular__item{
+        gap: 12px;
+        margin-top: 15px;
+    }
+}
+@media (max-width:550px) {
+    .popular{
+        gap: 4px;
+        height: 250px;
+    }
+    .popular h1{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .popular hr{
+        width: 100px;
+        height: 2px;
+        margin: 5px 0px;
+    }
+    .popular__item{
+        gap: 2px;
+        margin-top: 5px;
+    }
+}
+@media (max-width:450px) {
+    .popular{
+        gap: 3px;
+        height: 250px;
+    }
+    .popular h1{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .popular hr{
+        width: 100px;
+        height: 2px;
+    }
+    .popular__item{
+        gap: 2px;
+        margin-top: 15px;
+    }
+}

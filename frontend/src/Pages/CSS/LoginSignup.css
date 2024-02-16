@@ -1,0 +1,122 @@
+.loginsignup{
+    width: 100%;
+    height: 500px;
+    background: #000000;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.loginsignup__container{
+    width: 580px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.23);
+    margin: auto;
+    padding: 40px 60px;
+}
+.loginsignup__container h1{
+    font-size: 24px;
+    color: #FFF;
+}
+.loginsignup__fields{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 15px;
+}
+.loginsignup__fields input{
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.loginsignup__container button{
+    width: 601px;
+    height: 45px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginsignup__login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginsignup__login span{
+    color: #ff4141;
+    font-weight: 600;
+    cursor: pointer;
+}
+.check{
+    color: #ff4141;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    font-family:'Post No Bills Jaffna', sans-serif;
+}
+
+@media (max-width:1024px) {
+    .loginsignup{
+        width: 100%;
+        height: 450px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .loginsignup__container{
+        width: 500px;
+        height: 300px;
+    }
+    .loginsignup__container button{
+        width: 521px;
+        height: 45px;
+        margin-top: 30px;
+        font-size: 24px;
+    }
+}
+@media (max-width:900px) {
+    .loginsignup{
+        width: 100%;
+        height: 380px;
+        padding-bottom: 25px;
+    }
+    .loginsignup__container{
+        width: 400px;
+        height: 270px;
+        padding: 20px 30px;
+    }
+    .loginsignup__container button{
+        width: 421px;
+        height: 45px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+}
+@media (max-width:800px) {
+    .loginsignup{
+        width: 100%;
+        height: 300px;
+        background: #000000;
+        padding-top: 20px;
+    }
+    .loginsignup__container{
+        width: 300px;
+        height: 200px;
+        padding: 20px 30px;
+    }
+    .loginsignup__fields input{
+        height: 30px;
+        font-size: 14px;
+    }
+    .loginsignup__container button{
+        width: 321px;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+}

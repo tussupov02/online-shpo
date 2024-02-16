@@ -1,0 +1,151 @@
+.Snowflakes_snowflake__bYDZK:nth-child(7n+1){
+    opacity: .4;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.Snowflakes_snowflake__bYDZK:nth-child(odd) {
+    width: 40px;
+    height: 40px;
+    transform-origin: right -30px;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+}
+
+.Snowflakes_snowflake__bYDZK {
+    display: inline-block;
+    background-image: url(../Assets/snowflake-1.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    -webkit-animation: Snowflakes_snowflakes__orvWK 3s linear 2s infinite;
+    animation: Snowflakes_snowflakes__orvWK 3s linear 2s infinite;
+    z-index: 0;
+}
+
+@keyframes Snowflakes_snowflakes__orvWK 
+{0%{
+    transform: translate3d(0,-300px,0) rotate(0deg);
+}
+100% {
+    transform: translate3d(0,100vh,0) rotate(1turn);
+}} 
+
+.Snowflakes_snowflake__bYDZK:nth-child(7n+2) {
+    opacity: .5;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+.Snowflakes_snowflake__bYDZK:nth-child(2n+2) {
+    width: 48px;
+    height: 48px;
+    transform-origin: right -15px;
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+}
+.Snowflakes_snowflake__bYDZK:nth-child(2n) {
+    width: 32px;
+    height: 32px;
+    transform-origin: right -45px;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+}
+
+
+.Snowflakes_snowflake__bYDZK:nth-child(7n+3) {
+    opacity: .6;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.Snowflakes_snowflake__bYDZK:nth-child(3n+3) {
+    width: 32px;
+    height: 32px;
+    background-image: url(../Assets/snowflake-1.png);
+    transform-origin: right -45px;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+}
+
+.Snowflakes_snowflake__bYDZK:nth-child(7n+4) {
+    opacity: .7;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+.Snowflakes_snowflake__bYDZK:nth-child(3n+4) {
+    width: 40px;
+    height: 40px;
+    background-image: url(../Assets/snowflake-1.png);
+    transform-origin: right -30px;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+}
+
+.Snowflakes_block__TosDM {
+    position: fixed;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh + 100px);
+    pointer-events: none;
+}
+.Page_block___5SL5 {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh + 2px);
+    font-family: MuseoSansCyrl,serif;
+    background: #f0f1f2;
+}
+.Snowflakes_snowflake__bYDZK:nth-child(7n+5) {
+    opacity: .8;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+.Snowflakes_snowflake__bYDZK:nth-child(3n+5) {
+    width: 48px;
+    height: 48px;
+    background-image: url(../Assets/snowflake-1.png);
+    transform-origin: right -15px;
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+}
+.Snowflakes_snowflake__bYDZK:nth-child(7n+6) {
+    opacity: .9;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+}
+.Snowflakes_snowflake__bYDZK:nth-child(4n+6) {
+    width: 3px;
+    height: 3px;
+    background-color: #abd8fc;
+    border-radius: 50%;
+    transform-origin: right -15px;
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+}
+.Snowflakes_snowflake__bYDZK:nth-child(7n) {
+    opacity: .3;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.Snowflakes_snowflake__bYDZK:nth-child(4n+7) {
+    width: 5px;
+    height: 5px;
+    background-color: #abd8fc;
+    border-radius: 50%;
+    transform-origin: right -45px;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+}

@@ -1,0 +1,120 @@
+.footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: #FFF;
+}
+.footer__logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer__logo img{
+    width: 50px;
+}
+.footer__logo p{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family:'Post No Bills Jaffna', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.footer__links{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #717070;
+    font-size: 20px;
+}
+.footer__links li{
+    cursor: pointer;
+}
+.footer__social__icon{
+    display: flex;
+    gap: 20px;
+
+}
+.footer__icons__container{
+    padding: 10px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+.footer__copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #717070;
+    font-size: 20px;
+}
+.footer__copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background: #c7c7c7;
+}
+@media(max-width:850px){
+    .footer__logo img{
+        width: 40px;
+    }
+}
+@media(max-width:700px){
+    .footer{
+        margin-top: 0px;
+        gap: 20px;
+    }
+    .footer__logo img{
+        width: 30px;
+    }
+    .footer__logo p{
+        font-size: 32px;
+    }
+    .footer__links{
+        gap: 20px;
+        font-size: 16px;
+    }
+    .footer__icons__container{
+        width: 20px;
+    }
+    .footer__copyright hr{
+        height: 2px;
+    }
+    .footer__copyright p{
+        font-size: 14px;
+    }
+}
+@media(max-width:500px){
+    .footer{
+        margin-top: 0px;
+        gap: 5px;
+    }
+    .footer__logo img{
+        width: 20px;
+    }
+    .footer__logo p{
+        font-size: 24px;
+    }
+    .footer__links{
+        gap: 10px;
+        font-size: 10px;
+    }
+    .footer__icons__container{
+        width: 14px;
+        padding: 0;
+    }
+    .footer__copyright hr{
+        height: 1px;
+    }
+    .footer__copyright p{
+        font-size: 8px;
+    }
+}
